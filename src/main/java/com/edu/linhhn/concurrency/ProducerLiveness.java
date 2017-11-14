@@ -3,7 +3,7 @@ package com.edu.linhhn.concurrency;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Producer {
+public class ProducerLiveness {
 	
 	private List<String> names = new ArrayList<String>();
 	

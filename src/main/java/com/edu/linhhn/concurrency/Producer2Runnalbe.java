@@ -2,9 +2,9 @@ package com.edu.linhhn.concurrency;
 
 public class Producer2Runnalbe implements Runnable {
 	
-	private Producer producer;
+	private ProducerLiveness producer;
 	
-	public Producer2Runnalbe(Producer producer) {
+	public Producer2Runnalbe(ProducerLiveness producer) {
 		// TODO Auto-generated constructor stub
 		this.producer = producer;
 	}

@@ -4,9 +4,9 @@ import java.util.List;
 
 public class Producer1Runnalbe implements Runnable {
 	
-	private Producer producer;
+	private ProducerLiveness producer;
 	
-	public Producer1Runnalbe(Producer producer) {
+	public Producer1Runnalbe(ProducerLiveness producer) {
 		// TODO Auto-generated constructor stub
 		this.producer = producer;
 	}
