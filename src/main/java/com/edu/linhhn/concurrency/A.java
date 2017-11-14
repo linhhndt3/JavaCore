@@ -41,6 +41,7 @@ public class A {
 		System.out.println("------- p produce " + name);
 		names.add(name);
 		isEmpty = false;
+		notifyAll();
 	}
 	
 	public synchronized void getName() {
@@ -57,5 +58,6 @@ public class A {
 		}
 		System.out.println(names.get(names.size() - 1));
 		isEmpty = true;
+		notifyAll();
 	}
 }
