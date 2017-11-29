@@ -27,16 +27,16 @@ public class A {
 	
 	public synchronized void putName() {
 		System.out.println("------ P is empty ? " + isEmpty);
-		while(!isEmpty) {
-			try {
-				System.out.println("-------- P is waiting");
-				wait();
-				System.out.println("------- P finish wait");
-			} catch (InterruptedException e) {
-				System.out.println("I(one of the most handsome producer) can't wait for u");
-				e.printStackTrace();
-			}
-		}
+//		while(!isEmpty) {
+//			try {
+//				System.out.println("-------- P is waiting");
+//				wait();
+//				System.out.println("------- P finish wait");
+//			} catch (InterruptedException e) {
+//				System.out.println("I(one of the most handsome producer) can't wait for u");
+//				e.printStackTrace();
+//			}
+//		}
 		String name = UUID.randomUUID().toString();
 		System.out.println("------- p produce " + name);
 		names.add(name);
