@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 public class ViettelNotifyExportDataImpl implements NotifyExport {
 	
 	@Autowired
-	@Qualifier("csvExport")
+	@Qualifier("excelExport")
 	private ExportData exportData;
 
 	@Override
