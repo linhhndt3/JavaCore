@@ -2,8 +2,6 @@ package com.edu.linhhn.designpattern.IoC;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import com.edu.linhhn.designpattern.IoC.AppConfig;
-import org.springframework.core.convert.support.PropertyTypeDescriptor;
 
 public class App {
 	
